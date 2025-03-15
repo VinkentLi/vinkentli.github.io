@@ -13,7 +13,7 @@
       let sinA, sinB, cosA, cosB;
 
       function project(x, y, z, xo, yo, zo) {
-          let L = -z+1.1;
+          let L = -z+1;
           x += xo;
           y += yo;
           z += zo;
@@ -50,7 +50,7 @@
               if (data[r][c] == 0) continue;
               let x = c/data[r].length * 2 - 1;
               let y = r/data.length * 2 - 1;
-              for (let l = -1; l < 1; l += 0.5) {
+              for (let l = -1; l <= 1; l += 0.25) {
                 project(0, 0, l, x, y, -l+l/20);
               }
             }

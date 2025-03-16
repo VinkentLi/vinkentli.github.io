@@ -3,7 +3,7 @@ var fs = require("fs"),
 
 let result = "";
 
-fs.createReadStream("codejoint.png")
+fs.createReadStream("vinkent.png")
   .pipe(
     new PNG({
       filterType: 4,

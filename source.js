@@ -4,8 +4,8 @@
   
       var tmr1 = undefined;
 
-      const WIDTH = 160;
-      const HEIGHT = 44;
+      const WIDTH = 320;
+      const HEIGHT = 88;
       pretag.style = `background-color:#000; color:#ccc; font-size: 7pt; width: ${WIDTH}ch;`
       let a = 0, b = 0;
       let buff = new Array(WIDTH*HEIGHT);

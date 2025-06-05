@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+</head>
+<body>
+    <canvas style="height: 90vh; overflow: hidden; display: block; margin: 0 auto;" id="canvas" oncontextmenu="event.preventDefault()"></canvas>
+    <script>
+        var Module = {
+            canvas: (function() { return document.getElementById('canvas'); })()
+        };
+    </script>
+    <script src="GDClone.js"></script>
+</body>
+</html>
